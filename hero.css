@@ -1,0 +1,90 @@
+/* hero section */
+#profile{
+    padding-top: 12rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.section-pic-container{   
+   max-width: 400px;
+   height: auto;
+   align-self: center;
+}
+
+.photo-1{
+    display: block;
+    width: 100%; 
+}
+
+.section-text{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+}
+
+.section-text p{
+    font-weight: 600;
+}
+
+.section-text-p1{
+    text-align: center; 
+}
+
+.section-text-p2{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#socials-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap:1rem;
+}
+
+.icon{
+    cursor: pointer;
+    height: 2rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn{
+    font-weight: 600;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    border: 0.1rem solid rgb(53,53,53);
+    background: white;
+}
+
+.btn:hover,
+.btn:focus{
+    cursor: pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover{
+    background: rgb(53,53,53);
+    color: white;
+}
+
+.btn-color-1:hover{
+    background: rgba(0, 0, 0, 0.575);
+}
+
+.btn-color-2:hover{
+    border-color: white;
+}

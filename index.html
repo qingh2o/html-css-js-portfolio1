@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="hero.css">
     <link rel="stylesheet" href="mediaqueries.css">
 
 </head>
 
 <body>
-    <!-- test1 -->
+    <!-- Nav Bar -->
     <nav id="desktop-nav">
         <p class="logo">John Doe</p>
         <ul class="nav-links">
@@ -38,7 +40,34 @@
         </section>
     </nav>
 
+    <!-- Hero section -->
+    <section id="profile">
+        <!-- Photo -->
+        <figure class="section-pic-container">
+            <img class="photo-1" src="./assets/profile-pic.png" alt="John Doe profile picture">
+        </figure>
+        <!-- links -->
+        <article class="section-text">
+            <p class="section-text-p1">Hello, I'm</p>
+            <h1 class="title">John Doe</h1>
+            <p class="section-text-p2">Frontend Developer</p>
 
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="Linkedin profile" class="icon"
+                    onclick="location.href='https://linkedin.com/'">
+                <img src="./assets/github.png" alt="Github profile" class="icon"
+                    onclick="location.href='https://github.com/'">
+            </div>
+        </article>
+    </section>
     <script src="script.js"></script>
 </body>
 
