@@ -13,11 +13,25 @@
         gap: 3rem;
     }
 
+    #about {
+        padding-top: 10rem;
+    }
+
+    .section-container {
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+
     .section-pic-container {
         width: 275px;
         height: 275px;
         align-self: center;
     }
+
+    .about-details-container {
+        padding: 0 8rem;
+    }
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -35,4 +49,15 @@
         font-size: 2rem;
         text-align: center;
     }
+
+    .about-containers {
+        flex-direction: column;
+    }
+
+    
+    .about-details-container {
+        padding: 0 2rem;
+    }
+
+    
 }

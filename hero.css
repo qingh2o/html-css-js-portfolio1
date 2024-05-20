@@ -1,5 +1,5 @@
 /* hero section */
-#profile{
+#profile {
     padding-top: 12rem;
     margin: auto;
     display: flex;
@@ -7,84 +7,86 @@
     gap: 5rem;
 }
 
-.section-pic-container{   
-   max-width: 400px;
-   height: auto;
-   align-self: center;
+
+.section-pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
 }
 
-.photo-1{
+.photo-1 {
     display: block;
-    width: 100%; 
+    width: 100%;
 }
 
-.section-text{
+.section-text {
     display: flex;
     flex-direction: column;
     align-self: center;
     text-align: center;
 }
 
-.section-text p{
+.section-text p {
     font-weight: 600;
 }
 
-.section-text-p1{
-    text-align: center; 
+.section-text-p1 {
+    text-align: center;
 }
 
-.section-text-p2{
+.section-text-p2 {
     font-size: 1.75rem;
     margin-bottom: 1rem;
 }
 
-.title{
+.title {
     font-size: 3rem;
     text-align: center;
 }
 
-#socials-container{
+#socials-container {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
-    gap:1rem;
+    gap: 1rem;
 }
 
-.icon{
+.icon {
     cursor: pointer;
     height: 2rem;
 }
 
-.btn-container{
+.btn-container {
     display: flex;
     justify-content: center;
     gap: 1rem;
 }
 
-.btn{
+.btn {
     font-weight: 600;
     padding: 1rem;
     width: 8rem;
     border-radius: 2rem;
-    border: 0.1rem solid rgb(53,53,53);
+    border: 0.1rem solid rgb(53, 53, 53);
     background: white;
 }
 
 .btn:hover,
-.btn:focus{
+.btn:focus {
     cursor: pointer;
 }
 
 .btn-color-1,
-.btn-color-2:hover{
-    background: rgb(53,53,53);
+.btn-color-2:hover {
+    background: rgb(53, 53, 53);
     color: white;
 }
 
-.btn-color-1:hover{
+.btn-color-1:hover {
     background: rgba(0, 0, 0, 0.575);
 }
 
-.btn-color-2:hover{
+.btn-color-2:hover {
     border-color: white;
 }

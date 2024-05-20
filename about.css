@@ -1,0 +1,56 @@
+#about {
+    position: relative;
+    padding-top: 20rem;
+}
+
+.section-container {
+    padding: 10rem 2rem 0rem 2rem;
+    padding-top: 10rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.photo-2 {
+    border-radius: 2rem;
+    display: block;
+    width: 100%;
+}
+
+.about-details-container,
+.about-containers {
+    display: flex;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.details-container {
+    width: 100%;
+    padding: 1.5rem;
+    background: white;
+    border: 0.1rem solid rgb(163, 163, 163);
+    border-radius: 2rem;
+    text-align: center;
+}
+
+/* Readability:To ensure line lengths don't exceed 90 characters,*/
+.text-container{
+    max-width: 90ch;
+    text-align: justify;
+    margin: auto;
+}
+
+/* Arrow down*/
+.arrow {
+    position: absolute;
+    right: 5rem;
+    bottom: -5rem;
+}

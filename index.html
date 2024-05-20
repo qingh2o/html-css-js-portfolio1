@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="mediaqueries.css">
 
 </head>
@@ -46,28 +47,65 @@
         <figure class="section-pic-container">
             <img class="photo-1" src="./assets/profile-pic.png" alt="John Doe profile picture">
         </figure>
-        <!-- links -->
+        <!-- Hello + links -->
         <article class="section-text">
             <p class="section-text-p1">Hello, I'm</p>
             <h1 class="title">John Doe</h1>
             <p class="section-text-p2">Frontend Developer</p>
 
-            <div class="btn-container">
+            <section class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
                     Download CV
                 </button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">
                     Contact Info
                 </button>
-            </div>
-            <div id="socials-container">
+            </section>
+            <section id="socials-container">
                 <img src="./assets/linkedin.png" alt="Linkedin profile" class="icon"
                     onclick="location.href='https://linkedin.com/'">
                 <img src="./assets/github.png" alt="Github profile" class="icon"
                     onclick="location.href='https://github.com/'">
-            </div>
+            </section>
         </article>
     </section>
+
+    <!-- About section -->
+    <section id="about">
+        <p class="section-text-p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <section class="section-container">
+            <!--About Photo -->
+            <figure class="section-pic-container">
+                <img class="photo-2" src="./assets/about-pic.png" alt="Profile picture">
+            </figure>
+
+            <!--About details -->
+            <article class="about-details-container">
+                <section class="about-containers">
+                    <section class="details-container">
+                        <img class="icon" src="./assets/experience.png" alt="Experience icon">
+                        <h3>Experience</h3>
+                        <p>2+ years <br>Frontend Development</p>
+                    </section>
+                    <section class="details-container">
+                        <img class="icon" src="./assets/education.png" alt="Education icon">
+                        <h3>Education</h3>
+                        <p>B.Sc. Bachelors Degree <br>M.Sc. Masters Degree</p>
+                    </section>
+                </section>
+                <article class="text-container">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ab sunt quas dolore nam assumenda
+                        ratione earum molestias dolor, magnam minus deleniti reprehenderit, nobis mollitia quasi cumque
+                        incidunt, similique nesciunt molestiae nulla! Ex quae pariatur, molestias reprehenderit quos
+                        officiis, eveniet illum doloremque laudantium facilis fuga architecto eligendi accusantium.
+                        Animi, quaerat!</p>
+                </article>
+            </article>
+        </section>
+        <img class="icon arrow" src="./assets/arrow.png" alt="Arrow icon" onclick="location.href='./#experience'">
+    </section>
+
     <script src="script.js"></script>
 </body>
 
