@@ -9,12 +9,8 @@
 
     #profile {
         flex-direction: column;
-        padding-top: 3rem;
+        padding: 3rem 0;
         gap: 3rem;
-    }
-
-    #about {
-        padding-top: 10rem;
     }
 
     .section-container {
@@ -59,5 +55,7 @@
         padding: 0 2rem;
     }
 
-    
+    .Arrow{
+        display: none;
+    }
 }
