@@ -58,15 +58,17 @@
                 <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
                     Download CV
                 </button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                <button class="btn btn-color-1" onclick="location.href='./index.html#contact'">
                     Contact Info
                 </button>
             </section>
             <section id="socials-container">
-                <img src="./assets/linkedin.png" alt="Linkedin profile" class="icon"
-                    onclick="location.href='https://linkedin.com/'">
-                <img src="./assets/github.png" alt="Github profile" class="icon"
-                    onclick="location.href='https://github.com/'">
+                <a href="http://linkedin.com/" title="Open Linkedin profile">
+                    <img src="./assets/linkedin.png" alt="Open Linkedin profile" class="link-icon">
+                </a>
+                <a href="http://github.com/" title="Open Github profile">
+                    <img src="./assets/github.png" alt="Open Github profile" class="link-icon">
+                </a>
             </section>
         </article>
     </section>
@@ -85,12 +87,12 @@
             <article class="about-details-container">
                 <section class="about-containers">
                     <section class="details-container">
-                        <img class="icon" src="./assets/experience.png" alt="Experience icon">
+                        <img class="decorative-icon" src="./assets/experience.png" alt="">
                         <h3>Experience</h3>
                         <p>2+ years <br>Frontend Development</p>
                     </section>
                     <section class="details-container">
-                        <img class="icon" src="./assets/education.png" alt="Education icon">
+                        <img class="decorative-icon" src="./assets/education.png" alt="">
                         <h3>Education</h3>
                         <p>B.Sc. Bachelors Degree <br>M.Sc. Masters Degree</p>
                     </section>
@@ -104,8 +106,9 @@
                 </article>
             </article>
         </section>
-        <img class="icon arrow" src="./assets/arrow.png" alt="Arrow icon"
-            onclick="location.href='./index.html#experience'">
+        <a href="./index.html#experience" title="Go To My Experience section" class="arrow-button">
+            <img class="arrow" src="./assets/arrow.png" alt="Go To My Experience section">
+        </a>
     </section>
 
     <!-- Experience section -->
@@ -119,42 +122,42 @@
                     <h2 class="experience-sub-title">Frontend Development</h2>
                     <section class="article-container">
                         <article class="skills">
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <img src="./assets/checkmark.png" alt="" class="decorative-icon">
                             <div>
                                 <h3>HTML</h3>
                                 <p>Experienced</p>
                             </div>
                         </article>
                         <article class="skills">
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <img src="./assets/checkmark.png" alt="" class="decorative-icon">
                             <div>
                                 <h3>CSS</h3>
                                 <p>Experienced</p>
                             </div>
                         </article>
                         <article class="skills">
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <img src="./assets/checkmark.png" alt="" class="decorative-icon">
                             <div>
                                 <h3>SASS</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article class="skills">
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <img src="./assets/checkmark.png" alt="" class="decorative-icon">
                             <div>
                                 <h3>JavaScript</h3>
                                 <p>Basic</p>
                             </div>
                         </article>
                         <article class="skills">
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <img src="./assets/checkmark.png" alt="" class="decorative-icon">
                             <div>
                                 <h3>TypeScript</h3>
                                 <p>Basic</p>
                             </div>
                         </article>
                         <article class="skills">
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <img src="./assets/checkmark.png" alt="" class="decorative-icon">
                             <div>
                                 <h3>Material UI</h3>
                                 <p>Intermediate</p>
@@ -167,28 +170,28 @@
                     <h2 class="experience-sub-title">Frontend Development</h2>
                     <section class="article-container">
                         <article class="skills">
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <img src="./assets/checkmark.png" alt="" class="decorative-icon">
                             <div>
                                 <h3>PostgreSQL</h3>
                                 <p>Basic</p>
                             </div>
                         </article>
                         <article class="skills">
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <img src="./assets/checkmark.png" alt="" class="decorative-icon">
                             <div>
                                 <h3>Node JS</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article class="skills">
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <img src="./assets/checkmark.png" alt="" class="decorative-icon">
                             <div>
                                 <h3>Express JS</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article class="skills">
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <img src="./assets/checkmark.png" alt="" class="decorative-icon">
                             <div>
                                 <h3>Git</h3>
                                 <p>Intermediate</p>
@@ -199,9 +202,9 @@
                 </section>
             </section>
         </article>
-
-        <img class="icon arrow" src="./assets/arrow.png" alt="Arrow icon"
-            onclick="location.href='./index.html#projects'">
+        <a href="./index.html#projects" title="Go To My Projects section" class="arrow-button">
+            <img class="arrow" src="./assets/arrow.png" alt="Go To My Projects section">
+        </a>
     </section>
 
     <!-- Project section -->
@@ -210,7 +213,7 @@
         <h1 class="title">Project</h1>
         <!-- Project 1 -->
         <section class="experience-details-container">
-            <article class="about-containers">
+            <article class="about-containers project-containers">
                 <section class="details-container color-container">
                     <section class="article-container">
                         <img src="./assets/project-1.png" alt="Project 1" class="project-img">
@@ -240,7 +243,6 @@
                 </section>
 
                 <!-- Project 3 -->
-
                 <section class="details-container color-container">
                     <section class="article-container">
                         <img src="./assets/project-3.png" alt="Project 3" class="project-img">
@@ -255,9 +257,9 @@
                 </section>
             </article>
         </section>
-
-        <img class="icon arrow" src="./assets/arrow.png" alt="Arrow icon"
-            onclick="location.href='./index.html#contact'">
+        <a href="./index.html#contact" title="Go To My Contact section" class="arrow-button">
+            <img class="arrow" src="./assets/arrow.png" alt="Go To My Contact section">
+        </a>
     </section>
 
     <!-- Contact section -->
@@ -266,11 +268,11 @@
         <h1 class="title">Contact Me</h1>
         <section class="contact-info-upper-container">
             <section class="contact-info-container">
-                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
+                <img src="./assets/email.png" alt="" class="decorative-icon email-icon">
                 <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
             </section>
             <section class="contact-info-container">
-                <img src="./assets/linkedin.png" alt="Linkedin icon" class="icon contact-icon">
+                <img src="./assets/linkedin.png" alt="" class="decorative-icon">
                 <p><a href="https://www.linkedin.com">LinkedIn</a></p>
             </section>
         </section>
@@ -285,7 +287,7 @@
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
-                </ul> 
+                </ul>
             </section>
         </nav>
         <p>Copyright &#169; 2024 John Doe. All Rights Reserved.</p>

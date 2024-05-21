@@ -52,9 +52,21 @@
     gap: 1rem;
 }
 
-.icon {
-    cursor: pointer;
+.link-icon{
     height: 2rem;
+}
+
+.link-icon:hover,
+.link-icon:focus{
+    border-radius: 50%;
+    border-color: black;
+    outline: 5px solid black;
+    transition: all 0.3 ease-in-out;
+}
+
+.decorative-icon {  
+    height: 2rem;
+    color: rgba(0, 0, 0, 0.568);
 }
 
 .btn-container {

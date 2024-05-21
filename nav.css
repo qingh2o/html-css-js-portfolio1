@@ -16,13 +16,12 @@ nav {
     font-size: 1.5rem;
 }
 
-a {
+.nav-links a {
     color: black;
     text-decoration: none;
-
 }
 
-a:hover {
+.nav-links a:hover {
     color: grey;
     text-decoration: underline;
     text-underline-offset: 1rem;
@@ -69,6 +68,7 @@ a:hover {
     /* move down from hamburger-icon 100% */
     top: 110%;
     right: 0;
+    background-color: white;
     box-shadow: 5px 8px 20px rgba(128, 128, 128, 0.4);
     border-radius: 16px;
     width: fit-content;

@@ -27,7 +27,8 @@
     .about-details-container {
         padding: 0 8rem;
     }
-    
+
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -50,12 +51,33 @@
         flex-direction: column;
     }
 
-    
+
     .about-details-container {
         padding: 0 2rem;
     }
 
-    .Arrow{
+    .contact-info-upper-container {
+        flex-direction: column;
+    }
+
+    .experience-sub-title {
+        font-size: 1.25rem;
+    }
+
+    .arrow {
         display: none;
+    }
+
+    footer {
+        padding-bottom: 2rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links-container {
+        margin-bottom: 2rem;
     }
 }
