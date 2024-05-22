@@ -31,13 +31,13 @@
 .about-containers {
     gap: 2rem;
     margin: 2rem 0;
-    
+
 }
 
 .details-container {
     width: 100%;
     padding: 1.5rem;
-    background:#F7F7F7;
+    background: #F7F7F7;
     border-radius: 2rem;
     text-align: center;
 }
@@ -51,7 +51,7 @@
 }
 
 /* Arrow down*/
-.arrow-button{
+.arrow-button {
     display: block;
     position: absolute;
     right: 0;
@@ -59,11 +59,11 @@
 }
 
 .arrow {
-    height: 2rem;   
+    height: 2rem;
 }
 
 .arrow:hover,
-.arrow:focus{
+.arrow:focus {
     border-radius: 50%;
     border-color: black;
     outline: 3px solid black;
@@ -87,7 +87,7 @@
     display: flex;
     justify-content: center;
     padding: 6rem 2rem 1rem 2rem;
-   
+
 }
 
 .article-container {
@@ -112,9 +112,18 @@
     position: relative;
     padding: 2rem 0 6rem 0;
 }
+.project-details-container{
+    padding: 6rem 2rem 1rem 2rem;
+}
+.project-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+}
 
 .color-container {
-    background:#F7F7F7;
+    background: #F7F7F7;
 }
 
 .project-img {
@@ -141,7 +150,7 @@
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    background:#F7F7F7;
+    background: #F7F7F7;
     margin: 2rem auto;
     padding: 0.5rem;
 }
@@ -169,6 +178,6 @@ footer {
     padding-bottom: 4rem;
 }
 
-footer p{
+footer p {
     text-align: center;
 }
